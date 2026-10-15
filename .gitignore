@@ -1,0 +1,35 @@
+# Secrets / local config (contract: never commit .env)
+.env
+.env.*
+
+# Virtual environments (contract: never commit)
+.venv/
+venv/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data dumps (contract: never commit)
+*.bson
+*.gz
+dump/
+data/
+test_data/
+
+# Docker (contract: no Dockerfile)
+Dockerfile
+docker-compose*.yml
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
